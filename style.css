@@ -1,0 +1,172 @@
+* {
+    font-family: 'Montserrat';
+}
+
+
+.headerMain{
+    margin-bottom: 60px;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+	background-position:center;
+	background-size: cover;
+    background-image: url('prize.png');
+}
+/* text */
+.headingtext{
+    color: #000000;
+    padding: 200px 0;
+}
+.display-4{
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-n{
+    font-size: 30px;
+}
+
+.activities{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*  navbar adjustments */
+.bg-nav{
+    background: black; 
+    color: white; 
+    font-weight:  300;
+    font-size: 14px;
+}
+.btn-main{
+    background-color: #000000;
+    color: white; 
+}
+.btn-main:hover{
+    background-color: #373b41;
+    color: white; 
+}
+.btn-primary {
+    background-color: #F5F7FB;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 5px 10px 8px 0 rgba(0, 0, 0, 0.12);
+}
+  .card {
+    width:409px;
+    height:403px;
+  }
+
+.h2 {
+    size: 430px; font-weight: 700; 
+    padding-left: 116px;
+} 
+
+.news {
+    background: #F5F7FB; 
+    padding-left: 117px;
+}
+.card-header {
+    font-size: 
+    20px; font-weight: 600; 
+    background-color: white; 
+    border: none; 
+    font-family: 'Montserrat';
+}
+.card-body {
+    font-size: 14px; 
+    font-weight: 400; 
+    background-color:white; 
+    border: none; 
+    font-family: 'Montserrat';
+}
+
+.partners {
+    justify-content: center; 
+    background: white; 
+    padding-left: 117px;
+}
+.footer1 {
+    background: black; 
+    color: white; 
+    justify-content: center;
+}
+.white-box { width: 400px;   margin-left: auto; margin-right: auto; background: rgba(255,255,255,0.9);}
+.footer2 {
+    text-align: center; 
+    font-size: 14px; 
+    font-weight:400;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+/* banner animation */
+  .banner {
+    position: relative;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+  }
+  
+  .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* Text fade-in animation */
+  }
+  
+  .text.b {
+    margin: 0;
+  padding: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    #004587 0%,
+    #004587 16.666%,
+    #0089d0 16.666%,
+    #0089d0 33.333%,
+    #1ec5f8 33.333%,
+    #1ec5f8 50%,
+    #fef200 50%,
+    #fef200 66.666%,
+    #f03e45 66.666%,
+    #f03e45 83.333%,
+    #900c10 83.333%,
+    #900c10 100%
+  );
+  z-index: 0;
+  animation: splitAnimation 3s forwards; /* Animation duration: 3 seconds */
+}
+
+@keyframes splitAnimation {
+  0% {
+    clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+  
