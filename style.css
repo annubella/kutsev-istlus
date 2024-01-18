@@ -22,8 +22,11 @@
 }
 .text-n{
     font-size: 30px;
+    font-weight: 700;
 }
-
+.vahe{
+  margin-right: 41px;
+}
 .activities{
     width: 100%;
     height: 100%;
@@ -56,7 +59,7 @@
   }
 
 .h2 {
-    size: 430px; font-weight: 700; 
+    size: 30px; font-weight: 700; 
     padding-left: 116px;
 } 
 
@@ -84,10 +87,17 @@
     background: white; 
     padding-left: 117px;
 }
+.h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
 .footer1 {
-    background: black; 
-    color: white; 
-    justify-content: center;
+  background-color: black; 
+  color: white; 
+  justify-content: center; 
+  font-size: 16px; 
+  font-weight: 600; 
+  padding-left: 800px;
 }
 .white-box { width: 400px;   margin-left: auto; margin-right: auto; background: rgba(255,255,255,0.9);}
 .footer2 {
