@@ -1,0 +1,27 @@
+* {font-family: 'Montserrat';}
+.body {size: 18px;}
+.h2 {size: 430px; font-weight: 700; padding-left: 116px;} 
+
+.news {background: #F5F7FB; padding-left: 117px;}
+.card-header {font-size: 20px; font-weight: 600; background-color: white; border: none; font-family: 'Montserrat';}
+.card-body {font-size: 14px; font-weight: 400; background-color:white; border: none; font-family: 'Montserrat';}
+
+.partners {
+    justify-content: center; 
+    background: white; 
+    padding-left: 117px;
+}
+.h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.footer1 {background-color: black; 
+    color: white; 
+    justify-content: center; 
+    font-size: 16px; 
+    font-weight: 600; 
+    padding-left: 800px;}
+.footer2 {text-align: center; font-size: 14px; font-weight:600;}
+        
+
+        
